@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    float cement, bags;
+
+    printf("Enter cement quantity in kg: ");
+    scanf("%f", &cement);
+
+    bags = cement / 50;
+
+    printf("Required Cement Bags = %.2f", bags);
+
+    return 0;
+}
